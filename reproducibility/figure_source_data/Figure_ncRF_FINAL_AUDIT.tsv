@@ -1,0 +1,29 @@
+panel	quantity	value	note
+A	Leaves_strong	3	0 UP; 3 DOWN
+A	Inf_Meristem_strong	0	0 UP; 0 DOWN
+A	Pollen_strong	1	0 UP; 1 DOWN
+A	Unf_Ovules_strong	0	0 UP; 0 DOWN
+A	Fert_Ovules_strong	0	0 UP; 0 DOWN
+A	Embryo_strong	2	1 UP; 1 DOWN
+A	Endosperm_strong	33	31 UP; 2 DOWN
+A	Progeny_strong	0	0 UP; 0 DOWN
+B	Endosperm_tRNA	17	16 UP; 1 DOWN
+B	Endosperm_snoRNA	11	11 UP; 0 DOWN
+B	Endosperm_rRNA	3	3 UP; 0 DOWN
+B	Endosperm_snRNA	2	1 UP; 1 DOWN
+B	Endosperm_normalization_robust	26	of 33 primary strong
+C	LSU3_canonical_variants	10	nested 17-26 nt
+C	LSU3_canonical_fraction_CT	0.996805	raw exact-sequence reads
+C	LSU3_canonical_fraction_TR	0.987813	raw exact-sequence reads
+C	LSU3_log2FC_TMM	4.862	formal endpoint-family model
+C	LSU3_FDR_TMM	2.76e-05	formal endpoint-family model
+E	snoR21_targets	25	score <=3; RNA-seq tested
+E	snoR21_negative_targets	19	76 percent
+E	snoR21_strong_down	9	FDR <=0.05 and log2FC <=-1
+E	snoR21_strong_up	2	FDR <=0.05 and log2FC >=1
+F	expression_matched_P	0.007899210	fraction negative
+F	dinucleotide_sequence_P	0.005994006	fraction negative
+F	combined_sequence_expression_P	0.037962038	fraction-negative excess
+F	authentic_combined_effect	0.250772	fraction-negative excess
+F	combined_null_mean	0.019601021	fraction-negative excess
+G_GO	GO_FDR_significant	0	corrected BH across 1661 background-eligible terms; omit from central figure

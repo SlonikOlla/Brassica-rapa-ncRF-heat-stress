@@ -1,0 +1,5 @@
+ncRNA_class	strong_UP	strong_DOWN	strong_total
+rRNA	3	0	3
+snoRNA	11	0	11
+snRNA	1	1	2
+tRNA	16	1	17
